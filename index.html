@@ -1,0 +1,1500 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="initial-scale=1.0"/>
+<meta name="format-detection" content="telephone=no">
+<title>Appboy | Email Template</title>
+<style type="text/css">
+
+/* Resets: see reset.css for details */
+.ReadMsgBody { width: 100%; background-color: #ffffff;}
+.ExternalClass {width: 100%; background-color: #ffffff;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+html{width: 100%;margin:0; padding:0; }
+body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none; margin:0; padding:0; -webkit-font-smoothing: antialiased;}
+table {border-spacing:0;}
+img{display:block !important; outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; border:none; height: auto; line-height: 100%;}
+p{padding: 0; margin: 0;}
+br { line-height:0 !important; }
+div, p, span, strong, b, em, i, a, li, td {
+            -webkit-text-size-adjust: none;
+        }
+.b-letter__body {
+  background:#cccccc !important;
+}
+table td, table tr { border-collapse: collapse; }
+table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+
+
+
+@media only screen and (max-width: 640px){
+  body{
+    width:auto!important;
+  }
+
+  table[class="container"], td[class="container"]{
+    width: 100%!important;
+  }
+
+  table img[class="container-img"]{
+    width: 100%!important;
+  }
+  table[class="container-inner"]{
+    width: 100%!important;
+  }
+  table[class="remove-space-width"]{
+    display:none!important;
+  }
+
+  table[class="layout-1-col"]{
+    margin-right: 20px!important;
+    width: 30%!important;
+  }
+
+  table[class="layout-1-col-last"]{
+    width: 30%!important;
+  }
+  table[class="remove"]{
+    display:none!important;
+  }
+
+  td[class="image-180"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+  }
+
+  td[class="image-80"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+  }
+
+  td[class="image-130"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+  }
+
+  table[class="gallery-col"]{
+    margin-right: 20px!important;
+    width: 21%!important;
+  }
+
+  table[class="gallery-col-last"]{
+    width: 21%!important;
+  }
+
+  table[class="col-3-container"]{
+    width: 250px!important;
+  }
+  table[class="col-3"]{
+    width: 180px!important;
+  }
+
+  table[class="container-price"]{
+
+    float: none!important;
+    margin: 0 auto;
+  }
+
+
+}
+
+@media only screen and (max-width: 570px){
+  table[class="col-3-container"]{
+    width: 190px!important;
+  }
+  table[class="col-3"]{
+    width: 120px!important;
+  }
+}
+
+@media only screen and (max-width: 490px){
+  table[class="gallery-col"]{
+    margin-right: 10px!important;
+    width: 45%!important;
+  }
+
+  table[class="gallery-col-last"]{
+    width: 45%!important;
+  }
+
+
+ table[class="container-social"]{
+    width: 100%!important;
+  }
+
+  table[class="remove"]{
+    display:none!important;
+  }
+
+  table[class="remove-ly-3"] img{
+    width: 5px !important;
+  }
+
+  table[class="container-layout-3"], td[class="container-layout-3"]{
+    width: 100%!important;
+  }
+
+
+
+  td[class="add-20"]{
+    height: 20px!important
+  }
+  td[class="add-18"]{
+    height: 18px!important
+  }
+
+  table[class="layout-1-col"]{
+    margin-right: 0px!important;
+    width: 100%!important;
+  }
+
+  table[class="layout-1-col-last"]{
+    width: 100%!important;
+  }
+
+  td[class="image-180"] {
+    text-align: center !important;
+  }
+
+  td[class="image-180"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:180px !important;
+    min-width:124px !important;
+  }
+
+  td[class="image-80"] {
+    text-align: center !important;
+  }
+
+  td[class="image-130"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:130px !important;
+    min-width:100px !important;
+  }
+
+  td[class="align-center"] {
+    text-align: center !important;
+  }
+
+  td[class="td-indent"] {
+    padding: 0 20px !important;
+  }
+
+  table[class="col-3-container"]{
+    width: 100%!important;
+  }
+  table[class="col-3"]{
+    width: 80%!important;
+  }
+
+}
+
+/*
+  @tab main background
+  @section background-color
+  @tip Set the the background color for main background
+  @style id
+  */
+    #bg{
+      /*@editable*/background-color:#dde0e2 !important;
+    }
+  /*
+  @tab main color
+  @section background-color
+  @tip Set the the background color for main color
+  @style id
+  */
+    #main{
+      /*@editable*/background-color:#ffffff !important;
+    }
+
+</style>
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700" rel="stylesheet">
+<link rel="icon" href="images/favicon.png">
+</head>
+
+<body style="height:100%; background-color:#dde0e2; width:100%; " id="bg">
+  <div  style="background-color:#eeeeee;margin: 0; -webkit-font-smoothing: antialiased;-ms-text-size-adjust:none; width:100%; padding:10px 0; ">
+    <table border="0" cellspacing="0" cellpadding="0" style="width:600px; background-color: #ffffff;" align="center" class="container" id="main">
+      <tr>
+<td align="center" valign="top" style="padding:0">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-image: url; background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);" >
+           
+            <!-- start space -->
+            <tr>
+              <td valign="top" height="500" class="add-20">
+              </td>
+              <td>
+               <a href="http://appboy.com/"><img src="images/appboy_logo_small_wht.svg" alt="logo"  hspace="0" vspace="0" style="display: block !important; margin: 0 auto 0 auto; border:none;" width="25%" editable label="Logo"/></a>
+               <img src="images/test.png" alt="logo"  hspace="0" vspace="0" style="display: block !important; margin: 0 auto 0px auto; border:none;" width="28%" editable label="Hero image"/>
+              <h2 style="text-align:center; font-size:1.6em; letter-spacing: 2px; line-height:30px; color:#ffffff; font-weight:400; padding:0; margin: 0px 0px; font-family: 'Lato', sans-serif; "><singleline repeatertitle='true'>LORUM IPSUM AMIT</singleline></h2>
+              <h2 style="text-align:center; font-size:.75em; line-height:20px; color:#ffffff; font-weight:500; padding:0; margin: 0px 0px; font-family: 'Lato', sans-serif; "><singleline repeatertitle='true'><br />
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</singleline></h3>
+              <table border="0" cellspacing="0" cellpadding="0" >
+                          <tr>
+                            <td  style="height:50px;  text-align:center; background-clip: padding-box; border:.12em solid white; width:175px;">
+                            <a href="http://www.appboy.com" target="blank_" style="text-decoration:none;color:#fff; display:block;font-size:14.5px; font-weight:600; letter-spacing: 1.25px;line-height:22px; padding:10px 0px; font-family: 'Lato', sans-serif; margin: 0; "><multiline>LEARN MORE</multiline></a>
+                          </td>
+                          </tr>
+                        </table>
+              </td>
+           
+             </tr>
+            <!-- end space -->
+
+          </table>
+         <repeater>
+          <!-- Slider -->
+          <table border="0" cellspacing="0" cellpadding="0" style="background-color:; width:100%" class="container">
+            <tr>
+              <td valign="top" align="center">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" valign="top">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!-- Slider end -->
+          </repeater>
+          <repeater>
+          <!-- start layout-1 block -->
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <!-- start space -->
+            <tr>
+              <td valign="top" height="24">
+              </td>
+            </tr>
+            <!-- end space -->
+          </table>
+
+          <!-- start layout-1 title -->
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="100%" align="center" style="padding: 0; margin: 0;" valign="top">
+                <h2 style="text-align:center; font-size:30px; line-height:30px; color:#303541; font-weight:normal; padding:0; margin: 0; font-family: Arial,Tahoma, Helvetica, sans-serif; "><singleline repeatertitle='true'>Where to go?</singleline></h2>
+              </td>
+            </tr>
+          </table>
+          <!-- end layout-1 title -->
+  </repeater>
+  <repeater>
+          <!-- start Layout-1 container -->
+        <table width="580" align="center" border="0" cellspacing="0" cellpadding="0" class="container" bgcolor="#ffffff" style="background-color:#ffffff;">
+
+          <!-- start content -->
+              <tr>
+                <td valign="top">
+                  <!-- start content left -->
+                  <table width="180" border="0" cellspacing="0" cellpadding="0" align="left" class="layout-1-col">
+
+                    <!--start space height -->
+                   <tr>
+                     <td height="20"></td>
+                   </tr>
+                   <!--end space height -->
+
+                    <tr>
+                      <td width="100%" valign="top" align="center" class="image-180">
+                        <a href="http://demolink.org/" style="text-decoration: none; display: inline-block;">
+                          <img editable src="images/places-img-1.png" width="180" alt="image1" style="max-width:180px; display:block !important; " border="0" hspace="0" vspace="0" />
+                        </a>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%" >
+                          <tr>
+                            <td style="font-weight:bold; font-size:14px;line-height:14px; font-family: Arial,Tahoma, Helvetica, sans-serif; text-transform:uppercase; text-align: center;"><a href="http://demolink.org/" style="text-decoration:none; color:#303541;" target="blank_"><multiline>porta vel<br />scelerisque </multiline></a>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                   <!-- end content left -->
+
+                  <!-- start space width  -->
+                  <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                    <tr>
+                      <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                        <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0;"><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="15" /></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end space width  -->
+
+                  <!-- start content center -->
+                  <table width="180" border="0" cellspacing="0" cellpadding="0" align="left" class="layout-1-col">
+                    <!--start space height -->
+                   <tr>
+                     <td height="20"></td>
+                   </tr>
+                   <!--end space height -->
+
+                    <tr>
+                      <td width="100%" valign="top" align="center" class="image-180">
+                        <a href="" style="text-decoration: none; display: inline-block;">
+                          <img editable src="images/places-img-2.png" width="180" alt="image2" style="max-width:180px; display:block !important; " border="0" hspace="0" vspace="0" />
+                        </a>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                          <tr>
+                            <td style="font-weight:bold; font-size:14px;line-height:14px; font-family: Arial,Tahoma, Helvetica, sans-serif; text-transform:uppercase; text-align: center;"><a href="http://demolink.org/" style="text-decoration:none; color:#303541;" target="blank_"><multiline>porta vel<br />scelerisque</multiline> </a>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                   <!-- end content center -->
+
+                  <!-- start space width  -->
+                  <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                    <tr>
+                      <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                        <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="15" /></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end space width  -->
+
+                   <!-- start content right -->
+                  <table width="180" border="0" cellspacing="0" cellpadding="0" align="left" class="layout-1-col-last">
+                    <!--start space height -->
+                   <tr>
+                     <td height="20"></td>
+                   </tr>
+                   <!--end space height -->
+
+                    <tr>
+                      <td width="100%" valign="top" align="center" class="image-180">
+                        <a href="" style="text-decoration: none; display: inline-block;">
+                          <img editable src="images/places-img-3.png" width="180" alt="image3" style="max-width:180px; display:block !important; " border="0" hspace="0" vspace="0" />
+                        </a>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                          <tr>
+                            <td style="font-weight:bold; font-size:14px;line-height:14px; font-family: Arial,Tahoma, Helvetica, sans-serif; text-transform:uppercase; text-align: center; "><a href="http://demolink.org/" style="text-decoration:none; color:#303541;" target="blank_"><multiline>porta vel<br />scelerisque</multiline> </a>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+
+                  </table>
+                   <!-- end content right -->
+
+                </td>
+              </tr>
+               <!-- end  content -->
+
+               <!--start space height -->
+          <tr>
+                 <td height="50"></td>
+          </tr>
+               <!--end space height -->
+
+        </table>
+           <!-- end LAYOUT-1 container  -->
+</repeater>
+<repeater>
+
+        <!-- start hor-line -->
+          <table width="580" border="0" cellspacing="0" cellpadding="0" align="center" class="container" style="height:1px;background-color:#dbdbdb;">
+            <tr>
+              <td style="background-color:#dbdbdb; height:1px; padding: 0; margin: 0; vertical-align: top; line-height: 1px; font-size: 1px;" width="580"></td>
+            </tr>
+          </table>
+          <!-- start hor-line -->
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+
+            <!--start space height -->
+            <tr>
+              <td height="40"></td>
+            </tr>
+            <!--end space height -->
+
+            <tr>
+              <td valign="top">
+                <!-- start layout title -->
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="580" align="center" style="padding: 0; margin: 0;" valign="top" class="container">
+                      <h2 style="text-align:center; font-size:30px; line-height:30px; color:#303541; font-weight:normal; padding:0; margin: 0; font-family: Arial,Tahoma, Helvetica, sans-serif; "><singleline>What we offer</singleline></h2>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end layout title -->
+              </td>
+            </tr>
+
+        </table>
+</repeater>
+<repeater>
+          <!-- start LAYOUT-1 container -->
+        <table width="580" align="center" border="0" cellspacing="0" cellpadding="0" class="container" bgcolor="#ffffff" style="background-color:#ffffff;">
+
+          <!-- start  content -->
+              <tr>
+                <td valign="top">
+
+                  <!-- start content left -->
+                  <table width="180" border="0" cellspacing="0" cellpadding="0" align="left" class="layout-1-col">
+
+                    <!--start space height -->
+                    <tr>
+                      <td height="30"></td>
+                    </tr>
+                    <!--end space height -->
+
+                    <tr>
+                      <td width="100%" valign="top" align="center" class="image-80">
+                        <a href="http://demolink.org/" style="text-decoration: none; display: inline-block;">
+                          <img editable src="images/icon-offer-1.png" width="80" alt="icon1" style="max-width:80px; display:block !important; " border="0" hspace="0" vspace="0" />
+                        </a>
+                      </td>
+                    </tr>
+
+                    <!--start space height -->
+                    <tr>
+                      <td height="20"></td>
+                    </tr>
+                    <!--end space height -->
+
+
+                    <!-- layout-1 title-1 -->
+                    <tr>
+                      <td valign="top" align="center">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%" >
+                          <tr>
+                            <td valign="top" align="center">
+                              <h4 style="font-size:18px;font-weight:normal; color:#303541;font-family: Arial,Tahoma, Helvetica, sans-serif; margin: 0;padding: 0;line-height: 22px; text-align: center;"><singleline>Quisque nulla</singleline></h4>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end layout-1 title-1 -->
+
+                    <!--start space height -->
+                    <tr>
+                      <td height="12"></td>
+                    </tr>
+                    <!--end space height -->
+
+                    <!-- layout-1 text -->
+                    <tr>
+                      <td valign="top">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" >
+                          <tr>
+                            <td valign="top" style="font-size: 13px; line-height: 18px; margin: 0; padding: 0; color:#303541; font-family: Arial,Tahoma, Helvetica, sans-serif;" align="center">
+                              <multiline>Nulla facilisi. Aen nec eros. Vestibulum ante ipsum primis in faucibus.</multiline>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end layout-1 text -->
+
+                    <!--start space height -->
+                    <tr>
+                      <td height="22"></td>
+                    </tr>
+                    <!--end space height -->
+
+                    <!-- layout-1 button -->
+                    <tr>
+                      <td valign="top" width="auto" align="center">
+                        <table border="0" cellspacing="0" cellpadding="0" >
+                          <tr>
+                            <td  style="height:39px;  text-align:center; background-clip: padding-box; border-radius:6px;background:#00bec5; width:118px;">
+                              <a href="http://demolink.org/" target="blank_" style="text-decoration:none;color:#fff;display:block;font-size:18px;line-height:22px; padding:10px 0px; font-family: Arial,Tahoma, Helvetica, sans-serif;  margin: 0; "><multiline>Click here</multiline></a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end layout-1 button -->
+
+                  </table>
+                   <!-- end content left -->
+
+                  <!-- start space width  -->
+                  <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                    <tr>
+                      <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                        <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0;"><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="15" /></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end space width  -->
+
+                  <!-- start content center -->
+                  <table width="180" border="0" cellspacing="0" cellpadding="0" align="left" class="layout-1-col">
+
+                    <!--start space height -->
+                    <tr>
+                      <td height="30"></td>
+                    </tr>
+                    <!--end space height -->
+
+                    <tr>
+                      <td width="100%" valign="top" align="center" class="image-80">
+                        <a href="http://demolink.org/" style="text-decoration: none; display: inline-block;">
+                          <img editable src="images/icon-offer-2.png" width="80" alt="icon2" style="max-width:80px; display:block !important; " border="0" hspace="0" vspace="0" />
+                        </a>
+                      </td>
+                    </tr>
+
+                    <!--start space height -->
+                    <tr>
+                      <td height="20"></td>
+                    </tr>
+                    <!--end space height -->
+
+
+                    <!-- layout-1 title-1 -->
+                    <tr>
+                      <td valign="top" align="center">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                          <tr>
+                            <td valign="top" align="center">
+                              <h4 style="font-size:18px;font-weight:normal; color:#303541;font-family: Arial,Tahoma, Helvetica, sans-serif; margin: 0;padding: 0;line-height: 22px;text-align: center;"><singleline>Quisque nulla</singleline></h4>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end layout-1 title-1 -->
+
+                    <!--start space height -->
+                    <tr>
+                      <td height="12"></td>
+                    </tr>
+                    <!--end space height -->
+
+                    <!-- layout-1 text -->
+                    <tr>
+                      <td valign="top">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" >
+                          <tr>
+                            <td valign="top" style="font-size: 13px; line-height: 18px; margin: 0; padding: 0; color:#303541; font-family: Arial,Tahoma, Helvetica, sans-serif;" align="center">
+                              <multiline>Nulla facilisi. Aen nec eros. Vestibulum ante ipsum primis in faucibus orci.</multiline>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end layout-1 text -->
+
+                    <!--start space height -->
+                    <tr>
+                      <td height="22"></td>
+                    </tr>
+                    <!--end space height -->
+
+                    <!-- layout-1 button -->
+                    <tr>
+                      <td valign="top" width="auto" align="center">
+                        <table border="0" cellspacing="0" cellpadding="0" >
+                          <tr>
+                            <td  style="height:39px;  text-align:center; background-clip: padding-box; border-radius:6px;background:#00bec5; width:118px;">
+                            <a href="http://demolink.org/" target="blank_" style="text-decoration:none;color:#fff;display:block;font-size:18px;line-height:22px; padding:10px 0px; font-family: Arial,Tahoma, Helvetica, sans-serif;  margin: 0; "><multiline>Click here</multiline></a>
+                          </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end layout-1 button -->
+
+                  </table>
+                   <!-- end content center -->
+
+                  <!-- start space width  -->
+                  <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                    <tr>
+                      <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                        <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="15" /></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end space width  -->
+
+                  <!-- start content right -->
+                  <table width="180" border="0" cellspacing="0" cellpadding="0" align="left" class="layout-1-col-last">
+
+                    <!--start space height -->
+                    <tr>
+                      <td height="30"></td>
+                    </tr>
+                    <!--end space height -->
+
+                    <tr>
+                      <td width="100%" valign="top" align="center" class="image-80">
+                        <a href="http://demolink.org/" style="text-decoration: none; display: inline-block;">
+                          <img editable src="images/icon-offer-3.png" width="80" alt="icon3" style="max-width:80px; display:block !important; " border="0" hspace="0" vspace="0" />
+                        </a>
+                      </td>
+                    </tr>
+
+                    <!--start space height -->
+                    <tr>
+                      <td height="20"></td>
+                    </tr>
+                    <!--end space height -->
+
+
+                    <!-- layout-1 title-1 -->
+                    <tr>
+                      <td valign="top" align="center">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+                          <tr>
+                            <td valign="top" align="center">
+                              <h4 style="font-size:18px;font-weight:normal; color:#303541;font-family: Arial,Tahoma, Helvetica, sans-serif; margin: 0;padding: 0;line-height: 22px;text-align: center;"><singleline>Quisque nulla</singleline></h4>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end layout-1 title-1 -->
+
+                    <!--start space height -->
+                    <tr>
+                      <td height="12"></td>
+                    </tr>
+                    <!--end space height -->
+
+                    <!-- layout-1 text -->
+                    <tr>
+                      <td valign="top">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" >
+                          <tr>
+                            <td valign="top" style="font-size: 13px; line-height: 18px; margin: 0; padding: 0; color:#303541; font-family: Arial,Tahoma, Helvetica, sans-serif;" align="center">
+                              <multiline>Nulla facilisi. Aen nec eros. Vestibulum ante ipsum primis in faucibus.</multiline>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end layout-1 text -->
+
+                    <!--start space height -->
+                    <tr>
+                      <td height="22"></td>
+                    </tr>
+                    <!--end space height -->
+
+                    <!-- layout-1 button -->
+                    <tr>
+                      <td valign="top" width="auto" align="center">
+                        <table border="0" cellspacing="0" cellpadding="0" >
+                          <tr>
+                            <td  style="height:39px;  text-align:center; background-clip: padding-box; border-radius:6px;background:#00bec5; width:118px;">
+                            <a href="http://demolink.org/" target="blank_" style="text-decoration:none;color:#fff;display:block;font-size:18px;line-height:22px; padding:10px 0px; font-family: Arial,Tahoma, Helvetica, sans-serif;  margin: 0; "><multiline>Click here</multiline></a>
+                          </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- end layout-1 button -->
+                  </table>
+                   <!-- end content right -->
+
+                </td>
+              </tr>
+              <!-- end content -->
+              <!--start space height -->
+          <tr>
+                <td height="50"></td>
+          </tr>
+              <!--end space height -->
+        </table>
+          <!-- end layout-1 container  -->
+</repeater>
+<repeater>
+          <!-- start hor-line -->
+          <table width="580" border="0" cellspacing="0" cellpadding="0" align="center" class="container" style="height:1px;background-color:#dbdbdb;">
+            <tr>
+              <td style="background-color:#dbdbdb; height:1px; padding: 0; margin: 0; vertical-align: top; line-height: 1px; font-size: 1px;" width="580"></td>
+            </tr>
+          </table>
+          <!-- start hor-line -->
+
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+
+            <!--start space height -->
+            <tr>
+              <td height="40"></td>
+            </tr>
+            <!--end space height -->
+
+            <tr>
+              <td valign="top">
+                <!-- start layout title -->
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="580" align="center" style="padding: 0; margin: 0;" valign="top" class="container">
+                      <h2 style="text-align:center; font-size:30px; line-height:30px; color:#303541; font-weight:normal; padding:0; margin: 0; font-family: Arial,Tahoma, Helvetica, sans-serif; "><singleline>Latest gallery</singleline></h2>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end layout title -->
+              </td>
+            </tr>
+
+            <!--start space height -->
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <!--end space height -->
+
+            <tr>
+              <td valign="top" style="text-align: center;">
+                <i style="font-size: 13px; line-height: 18px; margin: 0; padding: 0; color:#3a3f50; font-family: Arial,Tahoma, Helvetica, sans-serif;"><multiline>Nulla facilisi. Aen nec eros. Vestibulum ante ipsum primis in fabus orci luctus et ultrices posuere. cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. Donec poam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede.</multiline></i>
+              </td>
+            </tr>
+            <!--start space height -->
+            <tr>
+              <td height="20" ></td>
+            </tr>
+            <!--end space height -->
+          </table>
+</repeater>
+<repeater>
+          <!-- start gallery container -->
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td valign="top">
+
+                <!-- start gallery item -->
+                <table width="130" border="0" cellspacing="0" cellpadding="0" align="left" class="gallery-col">
+                  <!--start space height -->
+                  <tr>
+                    <td height="10" ></td>
+                  </tr>
+                  <!--end space height -->
+                  <tr>
+                    <td valign="top" class="image-130">
+                      <a href="http://demolink.org/" target="blank_" >
+                        <img editable src="images/gallery-image-1.png" alt="gallery-image-1" style="border:none;" width="130" />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end gallery item -->
+
+                <!-- start space width  -->
+                <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                  <tr>
+                    <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                      <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="15" /></p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end space width  -->
+                <!-- start gallery item -->
+                <table width="130" border="0" cellspacing="0" cellpadding="0" align="left" class="gallery-col">
+                  <!--start space height -->
+                  <tr>
+                    <td height="10" ></td>
+                  </tr>
+                  <!--end space height -->
+                  <tr>
+                    <td valign="top" class="image-130">
+                      <a href="http://demolink.org/" target="blank_" >
+                        <img editable src="images/gallery-image-2.png" alt="gallery-image-2" style="border:none;" width="130" />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end gallery item -->
+
+                <!-- start space width  -->
+                <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                  <tr>
+                    <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                      <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="15" /></p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end space width  -->
+                <!-- start gallery item -->
+                <table width="130" border="0" cellspacing="0" cellpadding="0" align="left" class="gallery-col">
+                  <!--start space height -->
+                  <tr>
+                    <td height="10" ></td>
+                  </tr>
+                  <!--end space height -->
+                  <tr>
+                    <td valign="top" class="image-130">
+                      <a href="http://demolink.org/" target="blank_" >
+                        <img editable src="images/gallery-image-3.png" alt="gallery-image-3" style="border:none;" width="130" />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end gallery item -->
+
+                <!-- start space width  -->
+                <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                  <tr>
+                    <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                      <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="15" /></p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end space width  -->
+                <!-- start gallery item -->
+                <table width="130" border="0" cellspacing="0" cellpadding="0" align="left" class="gallery-col-last">
+                  <!--start space height -->
+                  <tr>
+                    <td height="10" ></td>
+                  </tr>
+                  <!--end space height -->
+                  <tr>
+                    <td valign="top" class="image-130">
+                      <a href="http://demolink.org/" target="blank_" >
+                        <img editable src="images/gallery-image-4.png" alt="gallery-image-4" style="border:none;" width="130" />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end gallery item -->
+
+              </td>
+            </tr>
+          </table>
+</repeater>
+<repeater>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td valign="top">
+
+                <!-- start gallery item -->
+                <table width="130" border="0" cellspacing="0" cellpadding="0" align="left" class="gallery-col">
+                  <!--start space height -->
+                  <tr>
+                    <td height="10" ></td>
+                  </tr>
+                  <!--end space height -->
+                  <tr>
+                    <td valign="top" class="image-130">
+                      <a href="http://demolink.org/" target="blank_" >
+                        <img editable src="images/gallery-image-5.png" alt="gallery-image-5" style="border:none;" width="130" />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end gallery item -->
+
+                <!-- start space width  -->
+                <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                  <tr>
+                    <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                      <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="15" /></p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end space width  -->
+                <!-- start gallery item -->
+                <table width="130" border="0" cellspacing="0" cellpadding="0" align="left" class="gallery-col">
+                  <!--start space height -->
+                  <tr>
+                    <td height="10" ></td>
+                  </tr>
+                  <!--end space height -->
+                  <tr>
+                    <td valign="top" class="image-130">
+                      <a href="http://demolink.org/" target="blank_" >
+                        <img editable src="images/gallery-image-6.png" alt="gallery-image-6" style="border:none;" width="130" />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end gallery item -->
+
+                <!-- start space width  -->
+                <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                  <tr>
+                    <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                      <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="15" /></p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end space width  -->
+                <!-- start gallery item -->
+                <table width="130" border="0" cellspacing="0" cellpadding="0" align="left" class="gallery-col">
+                  <!--start space height -->
+                  <tr>
+                    <td height="10" ></td>
+                  </tr>
+                  <!--end space height -->
+                  <tr>
+                    <td valign="top" class="image-130">
+                      <a href="http://demolink.org/" target="blank_" >
+                        <img editable src="images/gallery-image-7.png" alt="gallery-image-7" style="border:none;" width="130" />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end gallery item -->
+
+                <!-- start space width  -->
+                <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                  <tr>
+                    <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                      <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="15" /></p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end space width  -->
+                <!-- start gallery item -->
+                <table width="130" border="0" cellspacing="0" cellpadding="0" align="left" class="gallery-col-last">
+                  <!--start space height -->
+                  <tr>
+                    <td height="10" ></td>
+                  </tr>
+                  <!--end space height -->
+                  <tr>
+                    <td valign="top" class="image-130">
+                      <a href="http://demolink.org/" target="blank_" >
+                        <img editable src="images/gallery-image-8.png" alt="gallery-image-8" style="border:none;" width="130" />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end gallery item -->
+
+              </td>
+            </tr>
+            <!--start space height -->
+            <tr>
+              <td height="54"></td>
+            </tr>
+            <!--end space height -->
+          </table>
+</repeater>
+          <!-- end gallery container -->
+<repeater>
+          <!-- start hor-line -->
+          <table width="580" border="0" cellspacing="0" cellpadding="0" align="center" class="container" style="height:1px;background-color:#dbdbdb;">
+            <tr>
+              <td style="background-color:#dbdbdb; height:1px; padding: 0; margin: 0; vertical-align: top; line-height: 1px; font-size: 1px;" width="580"></td>
+            </tr>
+          </table>
+          <!-- start hor-line -->
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+            <!--start space height -->
+            <tr>
+              <td height="44"></td>
+            </tr>
+            <!--end space height -->
+            <tr>
+              <td valign="top">
+                <!-- start layout title -->
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="580" align="center" style="padding: 0; margin: 0;" valign="top" class="container">
+                      <h2 style="text-align:center; font-size:30px; line-height:30px; color:#303541; font-weight:normal; padding:0; margin: 0; font-family: Arial,Tahoma, Helvetica, sans-serif; "><singleline>The best services</singleline></h2>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end layout title -->
+              </td>
+            </tr>
+        </table>
+</repeater>
+
+                <repeater>
+          <!-- start layout-2 container -->
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+            <!--start space height -->
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <!--end space height -->
+            <tr>
+              <td align="center" valign="top">
+                <!-- start layout-2 item -->
+                <table width="270" border="0" cellspacing="0" cellpadding="0" align="left" class="col-3-container">
+                  <tr>
+                    <td valign="top">
+                      <table width="50" border="0" cellspacing="0" cellpadding="0" align="left">
+
+                        <!--start space height -->
+                        <tr>
+                          <td height="10"></td>
+                        </tr>
+                        <!--end space height -->
+                        <tr>
+                          <td align="center" valign="top">
+                            <img editable src="images/services-icon-1.png" alt="services-icon-1" width="50" style="border: none;" />
+                          </td>
+                        </tr>
+                      </table>
+
+                      <!-- start space width  -->
+                      <table  width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                        <tr>
+                          <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                            <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="7" /></p>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- end space width  -->
+
+                      <table width="208" border="0" cellspacing="0" cellpadding="0" align="left" class="col-3">
+
+                        <!--start space height -->
+                        <tr>
+                          <td height="10"></td>
+                        </tr>
+                        <!--end space height -->
+                        <tr>
+                          <td valign="top">
+                            <a href="http://demolink.org/" target="blank_" style="text-decoration:none;color:#303541;font-size:17px;line-height: 20px; font-family: Arial,Tahoma, Helvetica, sans-serif;"><singleline>Proin dictum entum</singleline></a>
+                            <p style="font-size: 13px; line-height: 18px; margin: 0; padding: 0; color:#3a3f50; font-family: Arial,Tahoma, Helvetica, sans-serif;"><multiline>Vestibulum iaculis lacinia est. Proin dictum elementat antem ipsum.</multiline></p>
+                          </td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- end layout-2 item -->
+
+                <!-- start space width  -->
+                <table width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                  <tr>
+                    <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                      <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="25" /></p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end space width  -->
+
+
+                <!-- start layout-2 item -->
+                <table width="270" border="0" cellspacing="0" cellpadding="0" align="left" class="col-3-container">
+                  <tr>
+                    <td valign="top">
+                      <table width="50" border="0" cellspacing="0" cellpadding="0" align="left">
+
+                        <!--start space height -->
+                        <tr>
+                          <td height="10"></td>
+                        </tr>
+                        <!--end space height -->
+                        <tr>
+                          <td align="center" valign="top">
+                            <img editable src="images/services-icon-2.png" alt="services-icon-2" width="50" style="border: none;" />
+                          </td>
+                        </tr>
+                      </table>
+
+                      <!-- start space width  -->
+                      <table width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                        <tr>
+                          <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                            <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="7" /></p>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- end space width  -->
+
+                      <table width="208" border="0" cellspacing="0" cellpadding="0" align="left" class="col-3">
+
+                        <!--start space height -->
+                        <tr>
+                          <td height="10"></td>
+                        </tr>
+                        <!--end space height -->
+                        <tr>
+                          <td valign="top">
+                            <a href="http://demolink.org/" target="blank_" style="text-decoration:none;color:#303541;font-size:17px;line-height: 20px; font-family: Arial,Tahoma, Helvetica, sans-serif;"><singleline>Lorem ipsum dolor sit</singleline></a>
+                            <p style="font-size: 13px; line-height: 18px; margin: 0; padding: 0; color:#3a3f50; font-family: Arial,Tahoma, Helvetica, sans-serif;"><multiline>Lorem ipsum dolor sit amet, tetuer adipiscing elitllentesque antem.</multiline></p>
+                          </td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- end layout-2 item -->
+
+              </td>
+            </tr>
+          </table>
+          <!-- end layout-2 container -->
+
+                </repeater>
+
+
+                <repeater>
+          <!-- start layout-2 container -->
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <!--start space height -->
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <!--end space height -->
+            <tr>
+              <td align="center" valign="top">
+                <!-- start layout-2 item -->
+                <table width="270" border="0" cellspacing="0" cellpadding="0" align="left" class="col-3-container">
+                  <tr>
+                    <td valign="top">
+                      <table width="50" border="0" cellspacing="0" cellpadding="0" align="left">
+
+                        <!--start space height -->
+                        <tr>
+                          <td height="10"></td>
+                        </tr>
+                        <!--end space height -->
+                        <tr>
+                          <td align="center" valign="top">
+                            <img editable src="images/services-icon-3.png" alt="services-icon-3" width="50" style="border: none;" />
+                          </td>
+                        </tr>
+                      </table>
+
+                      <!-- start space width  -->
+                      <table width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                        <tr>
+                          <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                            <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="7" /></p>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- end space width  -->
+
+                      <table width="208" border="0" cellspacing="0" cellpadding="0" align="left" class="col-3">
+
+                        <!--start space height -->
+                        <tr>
+                          <td height="10"></td>
+                        </tr>
+                        <!--end space height -->
+                        <tr>
+                          <td valign="top">
+                            <a href="http://demolink.org/" target="blank_" style="text-decoration:none;color:#303541;font-size:17px;line-height: 20px; font-family: Arial,Tahoma, Helvetica, sans-serif;"><singleline>Fusce euismod nsequ</singleline></a>
+                            <p style="font-size: 13px; line-height: 18px; margin: 0; padding: 0; color:#3a3f50; font-family: Arial,Tahoma, Helvetica, sans-serif;"><multiline>Proin dictum entat ante. Lorem ipsum dolor sit amet antem sit amet.</multiline></p>
+                          </td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- end layout-2 item -->
+
+                <!-- start space width  -->
+                <table  width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                  <tr>
+                    <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                      <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="25" /></p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end space width  -->
+
+                <!-- start layout-2 item -->
+                <table width="270" border="0" cellspacing="0" cellpadding="0" align="left" class="col-3-container">
+                  <tr>
+                    <td valign="top">
+                      <table width="50" border="0" cellspacing="0" cellpadding="0" align="left">
+
+                        <!--start space height -->
+                        <tr>
+                          <td height="10"></td>
+                        </tr>
+                        <!--end space height -->
+                        <tr>
+                          <td align="center" valign="top">
+                            <img editable src="images/services-icon-4.png" alt="services-icon-4" width="50" style="border: none;" />
+                          </td>
+                        </tr>
+                      </table>
+
+                      <!-- start space width  -->
+                      <table width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                        <tr>
+                          <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                            <p style="padding-left:5px;mso-table-lspace:0;mso-table-rspace:0; "><img src="images/spacer.gif" alt="" style="border:none; display:block !important;" width="7" /></p>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- end space width  -->
+
+                      <table width="208" border="0" cellspacing="0" cellpadding="0" align="left" class="col-3">
+
+                        <!--start space height -->
+                        <tr>
+                          <td height="10"></td>
+                        </tr>
+                        <!--end space height -->
+                        <tr>
+                          <td valign="top">
+                            <a href="http://demolink.org/" target="blank_" style="text-decoration:none;color:#303541;font-size:17px;line-height: 20px; font-family: Arial,Tahoma, Helvetica, sans-serif;"><singleline>Constetuer adipiscing elit</singleline></a>
+                            <p style="font-size: 13px; line-height: 18px; margin: 0; padding: 0; color:#7d838b; font-family: Arial,Tahoma, Helvetica, sans-serif;"><multiline>Vestibulum iaculis lacinia est. Proin dictume. Lorem ipsum dolor sit.</multiline></p>
+                          </td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- end layout-2 item -->
+
+              </td>
+            </tr>
+          </table>
+          <!-- end layout-2 container -->
+
+                </repeater>
+
+          <repeater>
+          <!-- start hor-line -->
+          <table width="580" border="0" cellspacing="0" cellpadding="0" align="center" class="container">
+            <!--start space height -->
+            <tr>
+              <td height="54"></td>
+            </tr>
+            <!--end space height -->
+            <tr>
+              <td style="background-color:#dbdbdb; height:1px; padding: 0; margin: 0; vertical-align: top;" width="580"></td>
+            </tr>
+            <!--start space height -->
+            <tr>
+              <td height="54"></td>
+            </tr>
+            <!--end space height -->
+          </table>
+          <!-- start hor-line -->
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" valign="top">
+                <img editable src="images/email-img-1.jpg" alt="" width="580" class="container-img" />
+              </td>
+            </tr>
+            <!--start space height -->
+            <tr>
+              <td height="40"></td>
+            </tr>
+            <!--end space height -->
+            <tr>
+              <td valign="top">
+                <h4 style="font-size:30px;line-height:32px;color:#303541;font-weight:normal;letter-spacing:-1px; padding:0; margin: 0; font-family: Arial,Tahoma, Helvetica, sans-serif;"><singleline>Nulla facilisi enean nec eros!</singleline></h4>
+              </td>
+            </tr>
+            <!--start space height -->
+            <tr>
+              <td height="14"></td>
+            </tr>
+            <!--end space height -->
+            <tr>
+              <td valign="top" style="font-size: 13px; line-height: 18px; margin: 0; padding: 0; color:#3a3f50; font-family: Arial,Tahoma, Helvetica, sans-serif;">
+                <multiline>Vestibulum iaculis lacinia est. Proin dictummentum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing  Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enimipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam  tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac.</multiline>
+              </td>
+            </tr>
+            <!--start space height -->
+            <tr>
+              <td height="16"></td>
+            </tr>
+            <!--end space height -->
+            <tr>
+              <td valign="top">
+                <a href="http://demolink.org/" target="blank_" style="text-decoration:none;color:#00bec5;font-size:17px; line-height: 18px; margin: 0; padding: 0; font-family: Arial,Tahoma, Helvetica, sans-serif;"><multiline>Try it out</multiline></a>
+              </td>
+            </tr>
+            <!--start space height -->
+            <tr>
+              <td height="36"></td>
+            </tr>
+            <!--end space height -->
+          </table>
+        </repeater>
+        </td>
+      </tr>
+    </table>
+
+<repeater>
+    <!-- start layout-3 container --><!-- end layout-3 container -->
+  </repeater>
+<repeater>
+    <!-- start layout-4 container -->
+    <table border="0" cellspacing="0" cellpadding="0" style="width:600px; background-color: #ffffff;" align="center" class="container">
+      <!--start space height -->
+      <tr>
+        <td height="38"></td>
+      </tr>
+      <!--end space height -->
+      <tr>
+        <td valign="top" style="padding:0 57px 0 59px" class="td-indent">
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tr>
+              <td  align="center" valign="top" width="100%">
+                <h2 style="text-align:center; font-size:30px; line-height:30px; color:#33383f; font-weight:normal; padding:0; margin: 0; font-family: Arial,Tahoma, Helvetica, sans-serif;"><singleline>See it in action</singleline></h2>
+              </td>
+            </tr>
+            <!--start space height -->
+            <tr>
+              <td height="18"></td>
+            </tr>
+            <!--end space height -->
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" valign="top">
+                <a href="http://demolink.org/" target="blank_"><img editable src="images/video-img.png" alt="" width="484" style="border:none" class="container-img" /></a>
+              </td>
+            </tr>
+            <!--start space height -->
+            <tr>
+              <td height="10"></td>
+            </tr>
+            <!--end space height -->
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" valign="top" style="color:#303541;font-size:13px;font-weight:normal;line-height:18px;font-family: Arial,Tahoma, Helvetica, sans-serif; padding:0 32px;margin: 0;">
+                <multiline>Vestibulum iaculis lacinia est. Proin dictummentum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet.</multiline>
+              </td>
+            </tr>
+          </table>
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tr>
+              <td align="center" valign="top">
+                <table width="128" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <!--start space height -->
+                  <tr>
+                    <td height="22"></td>
+                  </tr>
+                  <!--end space height -->
+                  <tr>
+                    <td  style="height:43px;  text-align:center; background-clip: padding-box; border-radius:6px;background:#3a3f50;" align="center">
+                      <a href="http://demolink.org/" target="blank_" style="text-decoration:none;color:#ffffff;display:block;font-size:18px !important;line-height:18px; padding:12px 0px; font-family: Arial,Tahoma, Helvetica, sans-serif;  margin: 0; vertical-align: center;"><multiline>Learn more</multiline></a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!--start space height -->
+      <tr>
+        <td height="48"></td>
+      </tr>
+      <!--end space height -->
+    </table>
+    <!-- end layout-4 container -->
+  </repeater>
+
+    <!-- start layout-5 container --><!-- end layout-5 container -->
+
+
+
+    <!-- start layout-6 container -->
+    <table border="0" cellspacing="0" cellpadding="0" style="width:600px; background-color: #ffffff;" align="center" class="container">
+      <!--start space height -->
+      <tr>
+        <td height="28"></td>
+      </tr>
+      <!--end space height -->
+      <tr>
+        <td valign="top" style="padding:0 10px;">&nbsp;</td>
+      </tr>
+       <!--start space height -->
+      <tr>
+        <td height="28"></td>
+      </tr>
+      <!--end space height -->
+    </table>
+    <!-- end layout-6 container -->
+
+
+    <!-- start layout-7 container -->
+      <table bgcolor="#222222" border="0" cellpadding="0" cellspacing="0" align="center" class="container" width="600px">
+                <tbody><tr>
+                  <td>
+                    <div style="font-size:0pt; line-height:0pt; height:45px"></div>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody><tr>
+                        <td align="left">
+                          <table border="0" cellpadding="0" cellspacing="0">
+                            <tbody><tr>
+                              <td class="side-spacing" style="font-size:0pt; line-height:0pt; text-align:left" width="40"></td>
+                              <td class="img-center" style="font-size:0pt; line-height:0pt; text-align:center" width="86"><a href="https://www.appboy.com" target="_blank"><img alt="" border="0" height="29" src="http://info.appboy.com/rs/appboy/images/greyappboy_logo.png" width="86"></a></td>
+                              <td class="mid-spacing" style="font-size:0pt; line-height:0pt; text-align:left" width="235"></td>
+                              <td class="img-center" style="font-size:0pt; line-height:0pt; text-align:center" width="54"><a href="https://twitter.com/Appboy" target="_blank"><img alt="" border="0" height="29" src="http://info.appboy.com/rs/appboy/images/twitter_icon.png" width="30"></a></td>
+                              <td class="img-center" style="font-size:0pt; line-height:0pt; text-align:center" width="54"><a href="https://www.facebook.com/appboy" target="_blank"><img alt="" border="0" height="29" src="http://info.appboy.com/rs/appboy/images/facebook_icon.png" width="30"></a></td>
+                              <td class="img-center" style="font-size:0pt; line-height:0pt; text-align:center" width="54"><a href="http://www.linkedin.com/company/appboy" target="_blank"><img alt="" border="0" height="29" src="http://info.appboy.com/rs/appboy/images/linkedin_icon.png" width="30"></a></td>
+                              <td class="img-center" style="font-size:0pt; line-height:0pt; text-align:center" width="54"><a href="https://plus.google.com/+Appboy" target="_blank"><img alt="" border="0" height="29" src="http://info.appboy.com/rs/appboy/images/googleplus_icon.png" width="30"></a></td>
+                              
+                            </tr>
+                          </tbody></table>
+                        </td>
+                      </tr>
+                    </tbody></table>
+                    
+                  </td>
+                </tr>
+              </tbody>
+  </table>
+            <div style="width: 600px; margin: 0 auto;font-size:0pt; line-height:0pt; background:#222222; height:25px"></div>
+
+            <table bgcolor="#222222" border="0" cellpadding="0" cellspacing="0" align="center" class="container" width="600px">
+                <tbody><tr style="">
+                  <td class="side-spacing" style="font-size:0pt; bgcolor:#222222 line-height:0pt; text-align:left" width="40"></td>
+                  <td align="left" style="">
+                    <table style="">
+                      <tbody><tr style="">
+                        <td class="mktEditable" id="address" style="color:#858585; font-family:Arial; font-size:9px; line-height:12px; text-align:left;"><span class="applelink">265 W 37th St #1212 New York NY 10018</span></td>
+                      </tr>
+                      <tr style="">
+                        <td class="mktEditable" id="email" style="color:#858585; font-family:Arial; font-size:9px; line-height:12px; text-align:left;"><a href="mailto:news@appboy.com" style="color:#858585; text-decoration:none">news@appboy.com</a></td>
+                      </tr>
+                      <tr style="">
+                        <td class="mktEditable" id="unsubscribe" style="color:#858585; font-family:Arial; font-size:9px; line-height:12px; text-align:left;">Not enjoying our emails? <a href="{{unsubscribe_url}}" style="color:#858585; text-decoration:underline" target="_blank">Unsubscribe</a></td>
+                      </tr>
+                    </tbody></table>
+                  </td>
+                  <td class="mid-spacing" style="font-size:0pt; line-height:0pt; text-align:left" width="300"></td>
+                  <td class="img-center" style="font-size:0pt; line-height:0pt; text-align:center" width="35"><img alt="" border="0" height="16" src="http://info.appboy.com/rs/appboy/images/bottom_greysmiley.png" width="35"></td>
+                  <td class="side-spacing" style="font-size:0pt; line-height:0pt; text-align:left" width="40"></td>
+                </tr>
+                <tr style="font-size:0pt; line-height:0pt; height:25px">
+                  <td></td>
+                </tr>
+              </tbody></table>
+
+</body>
+</html>
